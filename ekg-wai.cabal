@@ -33,11 +33,11 @@ tested-with:         GHC == 7.10.3
 library
   exposed-modules:
     System.Remote.Monitoring.Wai
+    System.Remote.Monitoring.Wai.Json
+    System.Remote.Monitoring.Wai.App
 
   other-modules:
     Paths_ekg_wai
-    System.Remote.Monitoring.Wai.Json
-    System.Remote.Monitoring.Wai.App
 
   build-depends:
     aeson,
